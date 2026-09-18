@@ -7,10 +7,10 @@ public sealed class Calculator
 
     public decimal Divide(decimal dividend, decimal divisor)
     {
-        if (divisor == 0)
-        {
-            throw new DivideByZeroException("The divisor cannot be zero.");
-        }
+        //if (divisor == 0)
+       // {
+        //    throw new DivideByZeroException("The divisor cannot be zero.");
+       // }
 
         return dividend / divisor;
     }
